@@ -1,0 +1,152 @@
+.dashboardfondo{
+    background-color: aquamarine !important;
+  }
+  
+  /** LOGO NAVBAR */
+  .logo {
+    width: 7rem;
+  }
+  
+  .colornavbar {
+      background-color: #000 !important;
+  }
+  
+  li.list-group-item.login:hover{   /* El logo del usuario abierto cambia el color del fondo a violeta */
+    background-color: blueviolet;
+  }
+  
+  i.fa-solid.fa-user.fa-xl{  /* En el logo del usuario abierto cambia el color del icono a marron */
+      color: brown;
+  }
+  
+  .container-fluid.text-center.columnas-bajar{   /*Baja las columnas 2,8 y 2 donde esta la lista*/
+    margin-top: 8rem;
+  }
+  
+  .mover-columna2{          /* Mueve solo la clumna 2 de la lista */
+    margin-left: 40rem;
+    margin-right: -20rem;
+  }
+  
+  .mover-columna5{
+    margin-left: 25rem;
+  }
+  
+  .cambiarimg-tx{      /* Cambia el tamaño de la imagen de joaquin y lo mueve */
+    margin-left: 27rem;
+  }
+  
+  h6.nombredash{
+    margin-left: 22rem;
+    margin-right: -20rem;
+  }
+  
+  a.panels{                  /* Es una clase de las barras Quita la raya de subrayado en el panel de banner, sobremi, etc */
+    text-decoration: none;  
+    color: #000
+  }
+  
+  .modal-header.banner1,.modal-footer.banner3{     /* Cambia el color de la cabezera del modal del banner */
+    background-color:yellowgreen !important;
+  }
+  
+  .modal-body.banner2{                          /* Cambia el color del fondo la parte del medio del modal del banner */
+    background-color:rgb(9, 131, 38)!important; 
+  }
+  
+  
+   button.btn.btn-danger.bajar-botones,button.btn.btn-warning.bajar-botones{      /* A linea los botones de cerrar y guardar un poco hacia abajo */
+   margin-top: 1rem;
+   color:white;
+   }
+  
+   .bannertext{         /* Cambia el color del titulo de los textos en el modal del banner */
+    color: bisque;
+   }
+  
+  .sobremicabezal{        /* Cambia los cabezales de arriba y abajo de todos los modales */
+    background: rgb(63,94,251);
+    background: linear-gradient(311deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 39%, rgba(152,83,183,1) 53%, rgba(178,80,163,1) 61%);
+  }
+       
+  .sobremicuerpo{        /* Cambia la parte del medio de todos los modales */
+    background: rgb(192,54,254);
+    background: linear-gradient(311deg, rgba(192,54,254,1) 41%, rgba(235,178,191,1) 61%);
+  }
+  
+  .sobremibotones{     /* Cambia el color de los botones del modal sobre mi */
+    background: rgb(254,118,54);
+    background: linear-gradient(90deg, rgba(254,118,54,1) 41%, rgba(255,76,104,1) 61%);
+  }
+  
+  h5.experiencialaboralnombre{   /*Cambia el color de la letra en experiancias laborales */
+    color: rgb(218, 15, 15);
+  }
+  
+  .coloresbotonescursosrealizados{  /* Cambia el color de los botones del modal cursos realizados */
+    background: rgb(40,99,26);
+    background: linear-gradient(188deg, rgba(40,99,26,1) 43%, rgba(128,84,114,1) 54%, rgba(164,255,1,1) 89%);
+  }
+  
+  .cambiarbotoneshardysoft {     /* Cambia el color de los botones del modal hard y soft skills */
+    background: rgb(250,137,0);
+    background: linear-gradient(188deg, rgba(250,137,0,1) 43%, rgba(252,255,103,1) 54%, rgba(255,193,3,1) 89%);
+  }
+  button.btn.btn-secondary.cambiarbotoneshardysoft, button.btn.btn-primary.cambiarbotoneshardysoft{  /* Pone de color negro el texto en los botones de hard y soft skills */
+    color: black;
+  }
+  
+  .cambiarbotonproyectos {  /* Cambia el color de los botones del modal proyectos */
+    background: rgb(0,250,230);
+    background: linear-gradient(172deg, rgba(0,250,230,1) 35%, rgba(247,239,249,0.9724264705882353) 46%, rgba(3,241,255,1) 78%);
+  }
+  
+  button.btn.btn-secondary.cambiarbotonproyectos, button.btn.btn-primary.cambiarbotonproyectos{ /* Cambia el color del texto de los botones en el modal de proyectos */
+    color : #000;
+  }
+  
+  
+  .footercentro{  /* Agranda el footer */
+    margin-top: 50%;
+    width: 100%;
+    height: 15%;
+    padding: 0.5rem;
+  
+  }
+  
+  .cambiartextfooter{   /* Cambia la posicion del texto del footer */
+    margin-top: 0.5rem;
+  }
+  
+  .moverposicionfooter{  /* mueve la posicion del footer */
+    margin-top: -0.02rem !important;
+  }
+  
+  .tamaño{
+    margin-top: 10rem;
+  }
+  .container.tamaño{
+    margin-left: 1rem;
+  }
+  footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0px;
+    margin-top: 5.1rem;
+  }
+  
+  /** Cambia la letra de Arriba de las barras de edicion */
+  h6.textostilo{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 2rem;
+   color: rgb(254,118,54);
+  }
+  
+  /**Cambia la posicion de mi nombre */
+  
+  h6.nombreposicion{
+    margin-top: -2rem;
+    color: blueviolet;
+  }
+  

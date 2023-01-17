@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{  /* Estilos toda la pagina */
+    box-sizing: border-box;
+    
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon{ /* Cambia el color de los iconos del carrusel */
+    background-color:black ;
+  }

@@ -1,0 +1,51 @@
+
+.container.text-center{  /* Baja hacia abajo el formulario de login */
+    margin-top: 7rem;
+}
+
+
+.col-8.formulario-login{    /* Mueve la columna del formulario hacia abajo */
+    margin-top: 13.5%
+}
+
+nav.navbar.navbar-expand-lg.bg-danger.fixed-top.navbar-diseño, nav.navbar.navbar-expand-lg.bg-danger.fixed-top{       /* Color de fondo de la navbar */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+section.login{  /* Ajusta la section login */
+    margin-top: -1rem;
+    background: rgb(48,200,188);
+    background: linear-gradient(172deg, rgba(48,200,188,1) 35%, rgba(185,23,226,0.9724264705882353) 46%, rgba(39,142,148,1) 78%);
+    height: 32rem;
+}
+
+.footercentro{  /* Agranda el footer */
+  width: 100%;
+  padding: 0.5rem;
+  }
+
+  .registrarsecolor{   /* Cambia el color de la letra de registrarse */
+    color: orange;
+  }
+
+  .iniciasesioncolor{
+      color: rgb(23, 224, 238);
+  }
+
+  i.fa-brands.fa-youtube.fa-xl:hover{ /* Hacer un hover en el icono de youtube */
+    color: red;
+  }
+
+  i.fa-brands.fa-square-instagram.fa-xl:hover{ /* Hacer un hover en el icono de instagram */
+    color: orangered;
+  }
+
+  i.fa-brands.fa-facebook.fa-xl:hover{ /* Hacer un hover en el icono de facebook */
+    color: blue;
+  }
+
+  i.fa-solid.fa-user-lock.fa-xl:hover{ /* Hacer un hover en el icono de login */
+    color: greenyellow;
+  }
+

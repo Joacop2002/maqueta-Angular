@@ -1,0 +1,28 @@
+/** Section Cursos Realizados */
+
+section.cursosrealizados{  /* Agregar estilos a la seccion Cursos */
+    padding: 5px 5px;
+    margin: 0.5rem;
+    background-color: aqua;
+  }
+  
+  h2.cursosletra{
+    text-align: center;
+    margin-top: 7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  @media(max-width: 424px){
+  .cursosletra{
+    margin-top: 25rem !important;
+    margin-left: -13rem;
+  }
+   .cursoscarosel{
+    margin-top: 30rem;
+  }
+  
+  .cursostexto{
+    margin-left: 0rem;
+    margin-right: -13rem;
+  }
+  }

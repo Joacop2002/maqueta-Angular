@@ -1,0 +1,20 @@
+.sobremicabezal{        /* Cambia los cabezales de arriba y abajo de todos los modales */
+    background: rgb(63,94,251);
+    background: linear-gradient(311deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 39%, rgba(152,83,183,1) 53%, rgba(178,80,163,1) 61%);
+  }
+       
+  .sobremicuerpo{        /* Cambia la parte del medio de todos los modales */
+    background: rgb(192,54,254);
+    background: linear-gradient(311deg, rgba(192,54,254,1) 41%, rgba(235,178,191,1) 61%);
+  }
+  
+  .coloresbotonescursosrealizados{  /* Cambia el color de los botones del modal cursos realizados */
+    background: rgb(40,99,26);
+    background: linear-gradient(188deg, rgba(40,99,26,1) 43%, rgba(128,84,114,1) 54%, rgba(164,255,1,1) 89%);
+  }
+  
+  button.btn.btn-danger.bajar-botones,button.btn.btn-warning.bajar-botones{      /* A linea los botones de cerrar y guardar un poco hacia abajo */
+    margin-top: 1rem;
+    color:white;
+    }
+   

@@ -1,0 +1,72 @@
+/**Section Experiencia Laboral */
+
+section.experiencialaboral{
+    background: rgb(59,255,92);
+    background: linear-gradient(0deg, rgba(59,255,92,1) 0%, rgba(255,240,207,1) 100%);
+    padding: 10px 10px;
+    margin: 0.5rem;
+  
+  }
+  
+  .textoexperiencia{
+    margin-top: 2rem;
+    color: #fff;
+  }
+  
+  .textolugar{
+    margin-top: 2rem;
+    color: #fff;
+  }
+  
+  @media(max-width: 765px){
+    .textolugar{
+     margin-top: 5rem;
+    }
+  
+    .skills{
+      margin-left: 0rem !important;
+      margin-right: -5rem;
+    }
+  }
+  
+  @media(max-width: 752px){
+    .textolugar{
+     margin-top: 5rem;
+    }
+  }
+  
+  @media(max-width: 560px){
+    .textolugar{
+      margin-top: 6rem;
+      margin-left: -8rem;
+     }
+  
+     .experienciaimagen{
+      margin-top: 15rem;
+      margin-left: -13rem;
+     }
+  
+     .textoexperiencia{
+      margin-right: -25rem;
+     }
+  }
+  
+  @media(max-width: 467px){
+    .textolugar{
+      margin-top: 6rem;
+      margin-left:-4rem;
+     }
+  }
+  
+  @media(max-width: 505px){
+    .textoexperiencia{
+      margin-right: -13rem;
+      margin-top: 2rem;
+     }
+  
+     .textolugar{
+      margin-left: -6rem;
+      margin-right: -5rem;
+     }
+  }
+  

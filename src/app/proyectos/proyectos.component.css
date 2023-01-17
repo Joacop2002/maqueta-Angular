@@ -1,0 +1,47 @@
+/** Section Proyectos */
+section.proyectos{
+    background: rgb(253,209,29);
+    background: linear-gradient(0deg, rgba(253,209,29,1) 37%, rgba(218,255,209,1) 43%, rgba(164,255,1,1) 89%); 
+    margin: 0.5rem;
+  }
+  
+  .imagencompu{
+    margin-top: -2rem;
+  }
+  
+  .imagencompu:hover{
+    opacity: 0.3;
+    transition: 400ms;
+    transform: translateX(-10%);
+  }
+  
+  h1.proyectotitulo{
+    margin-left: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h6.proyectodescripcion{
+    color: brown;
+  }
+  @media(max-width: 991px){
+    h1.proyectotitulo{
+      margin-top: 12rem;
+      margin-left: -10rem;
+    }
+  }
+  
+  @media(max-width: 450px){
+    h1.proyectotitulo{
+      margin-left: -3rem;
+      margin-top: 20rem;
+    }
+  
+    .proyectodescripcion{
+      margin-top: 10rem;
+      margin-left: -12rem;
+    }
+  
+    .imagencompu{
+      margin-left: -0.6rem;
+    }
+  }

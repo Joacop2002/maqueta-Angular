@@ -1,0 +1,17 @@
+ /** Banner */
+ .banner {
+  margin-top: 5.8rem;
+}
+
+
+@media(max-width: 425px){
+    .banner{
+     margin-top: 5rem;
+    }
+  }
+
+  @media(max-width: 320px){
+    .banner{
+     margin-top: 8rem;
+    }
+  }

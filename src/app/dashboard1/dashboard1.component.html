@@ -1,0 +1,81 @@
+<header>
+        <div class="container">
+            <nav class="navbar bg-body-secondary fixed-top colornavbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" routerLink="">
+                        <img src="/assets/img/LOGO ARGENTINA PROGRAMA.png" class="rounded-5 w-75% logo"
+                            alt="Argentina Programa">
+                    </a>
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item login">
+                            <!-- Boton que manda al login -->
+                            <a routerLink=""><i class="fa-solid fa-user fa-xl" type="button"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Listado de edicion-->
+    <section class="tamaño">
+        <h6 class="text-center nombreposicion">Joaquin Pranteda <br>
+            <h6 class="text-center textostilo"><strong>Edicion de datos</strong></h6>
+        </h6>
+        <ul class="list-group mt-3 tamaño">
+            <!--Aca ban las barras del costado izquierdo-->
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal" data-bs-target="#RedesModal"
+                    class="panels"><i class="fa-regular fa-thumbs-up"></i> Redes</a></li>
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal" data-bs-target="#BannerModal"
+                    class="panels"><i class="fa-solid fa-image"></i> Banner</a></li>
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal" data-bs-target="#SobremiModal"
+                    class="panels"><i class="fa-solid fa-align-justify"></i> Sobre mi</a></li>
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal"
+                    data-bs-target="#ExperienciaModal" class="panels"><i class="fa-solid fa-briefcase"></i> Experiencia
+                    Laboral</a></li>
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal"
+                    data-bs-target="#CursosRealizadosModal" class="panels"><i class="fa-solid fa-graduation-cap"></i>
+                    Cursos Realizados</a></li>
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal"
+                    data-bs-target="#HardySoftSkillsModal" class="panels"><i class="fa-solid fa-spinner"></i>
+                    Hard y Soft Skills</a></li>
+            <li class="list-group-item text-center"><a href="#" data-bs-toggle="modal" data-bs-target="#ProyectosModal"
+                    class="panels"><i class="fa-solid fa-circle-info"></i> Proyectos</a></li>
+        </ul>
+        <!-- Finalizan las barras-->
+    </section>
+    <!--Comienzan los modales-->
+    <div class="col-9">
+        <!--Inicio ventana modal Redes-->
+        <app-redes></app-redes>
+        <!--Finaliza modal Redes-->
+        <!-- Banner Modal -->
+        <app-editarbanner></app-editarbanner>
+        <!--Finaliza la ventana modal-->
+        <!-- Sobre mi Modal -->
+        <app-sobremimodal></app-sobremimodal>
+        <!--Finaliza la ventana modal sobre-mi-->
+        <!--Inicio ventana modal Experiencia laboral-->
+        <app-experienciamodal></app-experienciamodal>
+        <!--Finaliza modal experiencia laboral-->
+        <!--Inicio ventana modal Cursos Realizados-->
+        <app-cursosrealizadosmodal></app-cursosrealizadosmodal>
+        <!--Finaliza modal Cursos Realizados-->
+        <!--Inicio ventana modal Hard y Soft Skills-->
+        <app-hardysoftmodal></app-hardysoftmodal>
+        <!--Finaliza modal Hard y Soft Skills-->
+        <!--Inicio ventana modal Proyectos-->
+        <app-proyectosmodal></app-proyectosmodal>
+        <!--Finaliza modal Proyectos-->
+    </div>
+    <!--Finaliza la columna 2 Pagina entera-->
+    <div class="col-1">
+        <!--Inicia columna 3 Pagina entera-->
+
+    </div>
+    <!--Finaliza columna 3-->
+
+    <!--Footer-->
+    <footer>
+        <p>&copy;COPYRIGHT -JOAQUIN PRANTEDA -2022-</p>
+    </footer>

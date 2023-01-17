@@ -1,0 +1,15 @@
+.sobremicabezal{        /* Cambia los cabezales de arriba y abajo de todos los modales */
+    background: rgb(63,94,251);
+    background: linear-gradient(311deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 39%, rgba(152,83,183,1) 53%, rgba(178,80,163,1) 61%);
+  }
+       
+  .sobremicuerpo{        /* Cambia la parte del medio de todos los modales */
+    background: rgb(192,54,254);
+    background: linear-gradient(311deg, rgba(192,54,254,1) 41%, rgba(235,178,191,1) 61%);
+  }
+  
+  .sobremibotones{     /* Cambia el color de los botones del modal sobre mi */
+    background: rgb(254,118,54);
+    background: linear-gradient(90deg, rgba(254,118,54,1) 41%, rgba(255,76,104,1) 61%);
+  }
+  

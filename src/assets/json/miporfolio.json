@@ -1,0 +1,107 @@
+{
+   "redes": [
+      {
+         "id": 0,
+         "icono": "fa-square-instagram",
+          "enlace": "https://www.instagram.com/joaquinpran5411/"
+      },
+      {
+         "id": 1,
+         "icono": "fa-facebook",
+         "enlace": "https://www.instagram.com/joaquinpran5411/"
+      },
+      {
+         "id": 2,
+         "icono": "fa-youtube",
+         "enlace": "https://www.instagram.com/joaquinpran5411/"
+      }
+   ],
+   
+      "bannerfoto1": "../../assets/img/Imagen 1.jpg",
+      "bannerfoto2": "../../assets/img/Imagen 2.jpg",
+      "bannerfoto3": "../../assets/img/Imagen 3.jpg",
+      
+   
+
+      "fotosobremi": "../../assets/img/joaquin.jpg",
+      "titulosobremi": "Sobre Mi",
+      "descripcionsobremi": "Soy Joaquin Pranteda, tengo 20 años.",
+      "descripcionsobremi2":"Estoy estudiando en la Universidad de Buenos Aires la carrera de Analista en Sistemas.",
+      "descripcionsobremi3": "Me gradue en el colegio Sagrado Corazon de Barracas donde termine el secundario y obtuve mi titulo de especialización en Economia y Administracion.",
+      "descripcionsobremi4": "Estoy muy interesado en el tema de la computación (me gusta armar computadoras, investigar y aprender todo lo relazionado con la computación)",
+      "descripcionsobremi5": "Algun día me gustaria tener mi propia empresa relacionado sobre la programación.",
+      "descripcionsobremi6": "Desarrollador Web Full Stack Jr.",
+    
+        
+      "tituloexperiencia": "Experiencia Laboral",
+      "descripcionexperiencia": "Año 2020/2022 MAXI KIOSCO",
+      "descripcionexperiencia2": "Montes de Oca 813 CABA",
+      "experiencias": [
+         {
+            "id": 0,
+            "foto": "../../assets/img/Kiosco.jpg"
+         },
+         {
+            "id": 1,
+            "foto": "../../assets/img/Kiosco 2.jpg"
+         }
+      ],
+
+   "encabezadocursos": "Realize los siguientes cursos:",
+   "lista1cursos": "Realize un curso de programacion en Aprende Programando Virtual",
+   "lista2cursos": "Realize el curso de programacion Argentina Programa #Se Programar",
+   "lista3cursos": "Curso sobre temática de Géneros para el personal de la Universidad de Buenos Aires",
+   "lista4cursos": "Estoy realizando el curso Argentina Programa segundo etapa #Yo Programo",
+   "imagenescursos1": "../../assets/img/Aprende Programando Virtual.jpg",
+   "imagenescursos2": "../../assets/img/Curso genero.jpg",
+   "imagenescursos3": "../../assets/img/Se programar 1.jpg",
+   "titulocursos": "Cursos Realizados",
+
+
+   "tituloskills": "Hard y Soft Skills",
+   "skills": [
+      {
+         "id": 0,
+         "nombre": "CSS",
+         "porcentaje": 10,
+         "color": "progress-bar"
+      },
+      {
+         "id": 0,
+         "nombre": "ANGULAR",
+         "porcentaje": 5,
+         "color": "progress-bar"
+      },
+      {
+         "id": 1,
+         "nombre": "HTML",
+         "porcentaje": 20,
+         "color": "progress-bar"
+      },
+      {
+         "id": 2,
+         "nombre": "JAVASCRIPT",
+         "porcentaje": 10,
+         "color": "progress-bar"
+      },
+      {
+         "id": 0,
+         "nombre": "COMPAÑERISMO",
+         "porcentaje": 80,
+         "color": "progress-bar"
+      },
+      {
+         "id": 0,
+         "nombre": "COMUNICACIÓN",
+         "porcentaje": 90,
+         "color": "progress-bar"
+      }
+   ],
+
+ 
+   "imagenproyectos": "../../assets/img/compu joacop.jpeg",
+   "tituloproyectos": "Proyectos",
+   "textoproyecto1": "Me especializo en el armado de pc.",
+   "textoproyecto2": "Tengo conocimiento sobre cada componente de la pc y que accion realiza cada uno.",
+   "textoproyecto3": "Es una pasion que tengo desde chico y me encantaria que algun dia se haga un trabajo fijo."
+}

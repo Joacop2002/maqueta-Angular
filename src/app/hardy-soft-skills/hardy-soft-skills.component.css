@@ -1,0 +1,98 @@
+/**Section Hard y Soft Skills */
+
+section.hardysoftskills{
+    background-color: bisque;
+    background-size: cover;
+    margin: 0.5rem;
+    padding: 10px 10px;
+  }
+  
+  .progress-bar{                 /* Cambia el color de la barra de progreso */
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 37%, rgba(1,255,52,1) 67%); 
+  }
+  
+  .skills{
+    margin-top: 7rem;
+    margin-left: 7rem;
+  }
+  
+  h4.skills{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .bordeskills{              /* Cambia el borde de los cuadrados en la section hard y skills */
+      border: var(--bs-border-color);
+      border-color: red !important;
+  }
+  
+  .skillscolumna1{
+    background-color: rgb(152, 113, 136)
+    
+  }
+  
+  .colorskills2{
+    color: #fff;
+  }
+  
+  @media(max-width: 768px){
+    .skills{
+      margin-right: -7rem;
+      margin-left: 3rem;
+    }
+  }
+  
+  @media(max-width: 454px){
+    .skills{
+      margin-right: -7rem;
+      margin-left: 1rem;
+    }
+  }
+
+  @media(max-width: 727px){
+    .skills{
+      margin-top: -0rem;
+      margin-left: 1rem;
+    }
+  } 
+  @media(max-width: 718px){
+    h4.skills{
+      margin-top: 7rem;
+      margin-left: 1rem;
+    }
+  } 
+  
+  @media(max-width: 520px){
+    .skills{
+      margin-top: 2rem;
+      margin-left: 8rem;
+     margin-right: -10rem;
+    }
+  
+    .skillsbarra{
+      margin-top: 5rem;
+      margin-left: 5rem;
+    }
+  } 
+  
+  @media(max-width: 457px){
+    .skills{
+     margin-right: -10rem;
+     margin-left: 3rem;
+     margin-top: 2rem;
+    }
+  
+    @media(max-width: 400px){
+      h4.skills{
+        margin-top: 1rem;
+        
+      }
+    } 
+    
+    .skillsbarra{
+      margin-top: 1rem;
+    
+    }
+  }
+  
+  

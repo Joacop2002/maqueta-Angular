@@ -1,0 +1,20 @@
+/**Section Sobre mi */
+.sobremi{
+    margin-top: 1rem;
+    bottom: 20rem;
+    padding: 5px 5px;
+    
+  }
+
+  .bajartextosobremi{
+    margin-top: 2rem;
+  }
+  section.sobremi {  /* Es la clase de las secciones de sobre-mi */
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 0.5rem;
+ }
+
+ h1.sobre-mi{   /* Cambia el stilo de la letra de Sobre-i */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
